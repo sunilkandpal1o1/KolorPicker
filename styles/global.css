@@ -1,0 +1,146 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+div#header {
+	width: 100%;
+	height: 40px;
+	postion: fixed;
+	top: 0;
+	background-color: #000012;
+}
+
+a {
+	text-decoration: none;
+}
+
+.logo {
+	padding-left: 10px;
+	padding-top: 8px;
+}
+
+.logo a {
+	color: red;
+	font-size: 1.8em;
+}
+
+.logo a span {
+	color: #13e2cf;
+	font-weight: 300px;
+}
+
+div#container {
+	width: 100%;
+	height: 100%;
+	background: #2f2a2a;
+}
+
+.sidebar {
+	width: 30%;
+	height: 100%;
+	float: right;
+	border-right: 3px ridge;
+}
+
+.wrapper {
+	width: auto;
+	height: 100%;
+	/*margin-left: 200px;*/
+	padding: 10px;
+}
+
+.color_block {
+	margin-right: 60px;
+	height:100%;
+	padding: 19px;
+}
+
+.outer {
+	width: 230px;
+	height: 180px;
+	/*padding: 5px;
+	/*background-color: white;*/
+	float: right;
+}
+
+
+.outer a {
+	display: block;
+	/*width: 200px;
+	height: 150px;*/
+	/*background-color: white;*/
+	padding: 5px;
+	padding-top: 10px;
+	-webkit-transition: 0.4s;
+	-moz-transition: 0.4s;
+	-o-transition: 0.4s;
+	transition: 0.3s;
+}
+
+.outer a div {
+	width: 220px;
+	height: 160px;
+}
+
+.outer a img{
+	width: 220px;
+	height: 160px;
+}
+
+.outer a img:hover {
+	width: 230px;
+	height: 183px;
+}
+
+.outer a div:hover {
+	width: 230px;
+	height: 183px;
+}
+
+
+.outer a:hover {
+	padding: 0;
+	
+}
+
+div#red {
+	background-color: red;
+	}
+
+div#green {
+	background-color: #1ad91a;
+	
+}
+
+div#orange {
+	background-color: orange;
+	
+}
+
+div#blue {
+	background-color: blue;
+	
+}
+
+div#yellow {
+	background-color: yellow;
+	
+}
+
+div#footer {
+	width: 100%;
+	height: 30px;
+	margin-top: 40px;
+	text-align: center;
+	background-color: #691616;
+	position: fixed;
+	bottom: 0;
+}
+
+div#footer h5 {
+	padding-top: 4px;
+	color: white;
+	font-family: "calibri";
+}
